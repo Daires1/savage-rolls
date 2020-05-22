@@ -1,0 +1,42 @@
+/* savage rolls app */
+div.savage-roll-window {
+    width: 200px;
+    height: auto;
+}
+
+.savage-table {
+    border: none;
+    background: none;
+}
+
+.savage-header {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.savage-button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+}
+
+/* savage rolls dice */
+input[type=text].savage-textinput {
+    text-align: center;
+}
+
+.dice-total.savage-result {
+    font-size: 16px;
+}
+
+.savage-hit {
+    color: green;
+}
+
+.savage-miss {
+    color: red;
+}
